@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--=============== Remixicons ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== Swiper Css ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+
+    <!--=============== Css ===============-->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/skins/color-1.css" />
+
+    <!--=============== Skin Colors ===============-->
+    <link
+      rel="stylesheet"
+      href="assets/css/skins/color-1.css"
+      class="alternate-style"
+      title="color-1"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="assets/css/skins/color-2.css"
+      class="alternate-style"
+      title="color-2"
+      disabled
+    />
+
+    <title>Portfolio Website</title>
+  </head>
+  <body>
+    <!--=============== Header ===============-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li>
+              <a href="#home" class="nav__link active-link">Hello</a>
+            </li>
+
+            <li>
+              <a href="#services" class="nav__link">Services</a>
+            </li>
+
+            <li>
+              <a href="#resume" class="nav__link">Resume</a>
+            </li>
+
+            <li>
+              <a href="#portfolio" class="nav__link">Projects</a>
+            </li>
+
+            <li>
+              <a href="#blog" class="nav__link">Blog</a>
+            </li>
+
+            <li>
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-fill"></i>
+          </div>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-fill"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!--=============== Main ===============-->
+    <main class="main">
+      <!--=============== Home ===============-->
+      <section class="home" id="home">
+        <div class="home__container container grid">
+          <img src="assets/img/profile.jpg" alt="" class="home__img" />
+
+          <div class="home__data">
+            <h1 class="home__name">Pranali Sawant</h1>
+            <p class="home__work">Data Analyst, Business Intelligence Analyst</p>
+            <dl class="home__list">
+              <dt>AGE:</dt>
+              <dd>26</dd>
+              <dt>PHONE:</dt>
+              <dd> +1 (857)-693-8005</dd>
+              <dt>EMAIL:</dt>
+              <dd>pranalisawantt12@gmail.com</dd>
+              <dt>ADDRESS:</dt>
+              <dd>Boston, MA</dd>
+            </dl>
+            <div class="home__socials">
+              <a
+                href="https://github.com/"
+                target="_blank"
+                class="home__social-link"
+              >
+                <i class="ri-github-fill"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/"
+                target="_blank"
+                class="home__social-link"
+              >
+                <i class="ri-linkedin-box-fill"></i>
+              </a>
+              
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== Hello ===============-->
+      <section class="hello section container">
+        <h2 class="section__title">Hi_</h2>
+
+        <p class="hello__details text-lg">
+          I am a Data Analyst with over 2 years of experience specializing in statistical analysis, interactive dashboard development, and relational database management. Proficient in Python, SQL, Power BI, AWS, Tableau, and Excel, I bring expertise in marketing analytics and data storytelling to help businesses make informed decisions. Skilled in predictive modeling, A/B testing, and automating workflows, I excel in delivering scalable solutions that drive operational efficiency and impact. 
+        </p>
+        <a href="assets/img/PranaliRamesh_Sawant_Resume.pdf" class="button button--flex text-sm"
+          ><i class="ri-download-line"></i> DOWNLOAD CV</a
+        >
+      </section>
+
+      <!--=============== Services ===============-->
+      <section class="services section container" id="services">
+        <h2 class="section__title">Services_</h2>
+
+        <div class="services__container grid">
+          <div class="services__item">
+            <div class="icon__box">
+              <img
+                src="assets/img/web-design.png"
+                alt=""
+                class="services__icon"
+              />
+              <div class="services__dot">
+                <span class="dot"></span>
+              </div>
+            </div>
+
+            <h3 class="services__title text-lg">DATA CLEANING & PREPARATION</h3>
+            <p class="services__detail">
+              I specialize in cleaning, transforming, and organizing raw data into actionable formats to ensure accuracy and reliability for analysis.
+            </p>
+          </div>
+
+          <div class="services__item">
+            <div class="icon__box">
+              <img src="assets/img/laptop.png" alt="" class="services__icon" />
+              <div class="services__dot">
+                <span class="dot"></span>
+              </div>
+            </div>
+
+            <h3 class="services__title text-lg">INTERACTIVE DASHBOARD DEVELOPMENT</h3>
+            <p class="services__detail">
+              Design and develop interactive dashboards using tools like Power BI and Tableau to visualize data and help stakeholders make informed decisions.
+            </p>
+          </div>
+
+          <div class="services__item">
+            <div class="icon__box">
+              <img
+                src="assets/img/paint-palette.png"
+                alt=""
+                class="services__icon"
+              />
+              <div class="services__dot">
+                <span class="dot"></span>
+              </div>
+            </div>
+
+            <h3 class="services__title text-lg">STATISTICAL ANALYSIS</h3>
+            <p class="services__detail">
+              Perform in-depth statistical analyses to identify trends, patterns, and actionable insights that drive strategic decision-making.
+            </p>
+          </div>
+
+          <div class="services__item">
+            <div class="icon__box">
+              <img
+                src="assets/img/smartphone-call.png"
+                alt=""
+                class="services__icon"
+              />
+              <div class="services__dot">
+                <span class="dot"></span>
+              </div>
+            </div>
+
+            <h3 class="services__title text-lg">PREDICTIVE MODELING</h3>
+            <p class="services__detail">
+              Develop and implement predictive models to forecast trends and outcomes, improving planning and decision-making processes.
+            </p>
+          </div>
+
+          <div class="services__item">
+            <div class="icon__box">
+              <img
+                src="assets/img/verified.png"
+                alt=""
+                class="services__icon"
+              />
+              <div class="services__dot">
+                <span class="dot"></span>
+              </div>
+            </div>
+
+            <h3 class="services__title text-lg">A/B TESTING</h3>
+            <p class="services__detail">
+              Design and analyze A/B tests to optimize marketing campaigns, user experiences, and operational processes.
+            </p>
+          </div>
+
+          <div class="services__item">
+            <div class="icon__box">
+              <img
+                src="assets/img/operator.png"
+                alt=""
+                class="services__icon"
+              />
+              <div class="services__dot">
+                <span class="dot"></span>
+              </div>
+            </div>
+
+            <h3 class="services__title text-lg">DATA AUTOMATION</h3>
+            <p class="services__detail">
+              Automate data workflows to enhance efficiency and scalability using Python, SQL, and other advanced tools.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== Resume ===============-->
+      <section class="section container" id="resume">
+        <h2 class="section__title">Resume_</h2>
+
+        <div class="resume__container grid">
+          <div class="resume__data">
+            <h3 class="resume__title text-sm">EDUCATION</h3>
+
+            <div class="resume__item">
+              <h3 class="resume__subtitle text-sm">
+                NORTHEASTERN UNIVERSITY
+              </h3>
+              <p class="resume__date text-sm">2022 - 2024</p>
+                MASTER OF SCIENCE IN INFORMATION SYSTEMS
+            </div>
+            <div class="resume__item">
+              <p class="resume__description text-lg">
+                I recently graduated from Northeastern University with a Master of Science in Information Systems. Through my coursework, I gained practical skills in managing large datasets, designing efficient data models, and creating meaningful visualizations. These experiences have equipped me to handle real-world challenges in data analysis and business intelligence with confidence and precision.
+              </p>
+            </div>
+            <div class="resume__item">
+              <h3 class="resume__subtitle text-sm">
+                UNIVERSITY OF MUMBAI
+              </h3>
+              <p class="resume__date text-sm">2022 - 2024</p>
+                BACHELOR OF ENGINEERING IN INFORMATION TECHNOLOGY
+            </div>
+            <div class="resume__item">
+              <p class="resume__description text-lg">
+                I recently graduated from Northeastern University with a Master of Science in Information Systems. Through my coursework, I gained practical skills in managing large datasets, designing efficient data models, and creating meaningful visualizations. These experiences have equipped me to handle real-world challenges in data analysis and business intelligence with confidence and precision.
+              </p>
+            </div>
+          </div>
+
+          <div class="resume__data">
+            <h3 class="resume__title text-sm">EMPLOYMENT</h3>
+
+            <div class="resume__item">
+              <h3 class="resume__subtitle text-sm">MASSDOT</h3>
+              <p class="resume__date text-sm">June 2023 - December 2023</p>
+              <p class="resume__description text-lg">
+                Data Analyst Co-op
+              </p>
+              <p class="resume__description text-lg">
+                I designed interactive dashboards to visualize key trends, optimized database queries for faster reporting, and built predictive models to forecast risks and improve decision-making. Additionally, I automated reporting processes to streamline budget allocation and enhance operational efficiency.
+              </p>
+            </div>
+            <div class="resume__item">
+              <h3 class="resume__subtitle text-sm">INFOSYS LIMITED</h3>
+              <p class="resume__date text-sm">January 2021 - August 2022</p>
+              <p class="resume__description text-lg">
+                Data Analyst
+              </p>
+              <p class="resume__description text-lg">
+                I analyzed e-commerce performance data to identify opportunities for improvement, increasing conversion rates and optimizing user engagement. I developed dashboards to visualize key insights, implemented forecasting models to support campaign planning, and automated data pipelines for seamless integration across sources. Additionally, I collaborated on A/B testing to enhance content effectiveness and ensured accurate performance reporting through efficient tracking tools.
+              </p>
+            </div>
+
+            
+          </div>
+        </div>
+      </section>
+
+      <!--=============== Skills ===============-->
+      <section class="section container">
+        <h2 class="section__title">Skills_</h2>
+
+        <div class="skills__container grid">
+          <div class="skills__content">
+            <h3 class="skills__title text-sm">PROGRAMMING LANGUAGES</h3>
+
+            <div class="skills__list grid">
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <p class="skills__name text-sm">PYTHON</p>
+                  <span class="skills__number text-sm">90%</span>
+                </div>
+
+                <div class="skills__bar">
+                  <span class="skills__percentage" style="width: 90%"></span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <p class="skills__name text-sm">R</p>
+                  <span class="skills__number text-sm">80%</span>
+                </div>
+
+                <div class="skills__bar">
+                  <span class="skills__percentage" style="width: 80%"></span>
+                </div>
+              </div>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <p class="skills__name text-sm">SQL</p>
+                  <span class="skills__number text-sm">90%</span>
+                </div>
+
+                <div class="skills__bar">
+                  <span class="skills__percentage" style="width: 90%"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills__content">
+            <h3 class="skills__title text-sm">DATABASES</h3>
+
+            <div class="skills__list grid">
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <p class="skills__name text-sm">MYSQL</p>
+                  <span class="skills__number text-sm">90%</span>
+                </div>
+
+                <div class="skills__bar">
+                  <span class="skills__percentage" style="width: 90%"></span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <p class="skills__name text-sm">MS SQL SERVER</p>
+                  <span class="skills__number text-sm">80%</span>
+                </div>
+
+                <div class="skills__bar">
+                  <span class="skills__percentage" style="width: 80%"></span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <p class="skills__name text-sm">POSTGRES SQL</p>
+                  <span class="skills__number text-sm">60%</span>
+                </div>
+
+                <div class="skills__bar">
+                  <span class="skills__percentage" style="width: 60%"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="skills__content">
+            <BR>
+            <h3 class="skills__title text-sm">DATA VISUALIZATION</h3>
+
+            <div class="skills__list grid">
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <p class="skills__name text-sm">POWER BI</p>
+                  <span class="skills__number text-sm">90%</span>
+                </div>
+
+                <div class="skills__bar">
+                  <span class="skills__percentage" style="width: 90%"></span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <p class="skills__name text-sm">TABLEAU</p>
+                  <span class="skills__number text-sm">90%</span>
+                </div>
+
+                <div class="skills__bar">
+                  <span class="skills__percentage" style="width: 80%"></span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <p class="skills__name text-sm">GOOGLE ANALYTICS</p>
+                  <span class="skills__number text-sm">90%</span>
+                </div>
+
+                <div class="skills__bar">
+                  <span class="skills__percentage" style="width: 60%"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="skills__content">
+            <BR>
+            <h3 class="skills__title text-sm">DATA & CLOUD TOOLS</h3>
+
+            <div class="skills__list grid">
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <p class="skills__name text-sm">MICROSOFT EXCEL</p>
+                  <span class="skills__number text-sm">90%</span>
+                </div>
+
+                <div class="skills__bar">
+                  <span class="skills__percentage" style="width: 90%"></span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <p class="skills__name text-sm">AWS</p>
+                  <span class="skills__number text-sm">90%</span>
+                </div>
+
+                <div class="skills__bar">
+                  <span class="skills__percentage" style="width: 80%"></span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <p class="skills__name text-sm">GOOGLE CLOUD</p>
+                  <span class="skills__number text-sm">90%</span>
+                </div>
+
+                <div class="skills__bar">
+                  <span class="skills__percentage" style="width: 60%"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== Projects ===============-->
+      <section class="work section container" id="portfolio">
+        <h2 class="section__title">Projects</h2>
+
+        <div class="project__categories">
+          <button class="category__btn text-xs active-work" data-filter="all">
+            ALL
+          </button>
+          <button class="category__btn text-xs" data-filter=".app">
+            Healthcare Dashboard
+          </button>
+          <button class="category__btn text-xs" data-filter=".web">
+            Customer Churn Dashboard
+          </button>
+          <button class="category__btn text-xs" data-filter=".landing">
+           Ecommerce Dashboard
+          </button>
+          <button class="category__btn text-xs" data-filter=".fashion">
+            Fashion Recommendation Dashboard
+          </button>
+        </div>
+
+        <div class="projects__container grid">
+          <div class="project__item grid mix app">
+            <img src="assets/img/healthcare.png" alt="" class="project__img" />
+            
+            <div class="project__data">
+              <h3 class="project__title text-lg">
+                MEDTRACK - Healthcare analytics
+              </h3>
+              <p class="project__description">
+                Focused on improving healthcare efficiency, I analyzed 50,000+ medical records using Python for statistical insights and created a Power BI dashboard to visualize key metrics like billing trends and high-cost conditions, driving data-informed decisions.
+              </p>
+              <h4 class="project__stack text-xs">USED TOOLS:</h4>
+              <ul class="tags text-sm">
+                <li>Python</li>
+                <li>Power BI</li>
+                <li>Microsoft Excel</li>
+                <a href="https://github.com/PranaliSawant1211/Healthcare-Data-Analytics" class="project__link text-sm">Medtrack project link </a>
+              </ul>
+            </div>
+          </div>
+
+          <div class="project__item grid mix web">
+            <img src="assets/img/customer churn.png" alt="" class="project__img" />
+
+            <div class="project__data">
+              <h3 class="project__title text-lg">
+                CHURN SHEILD - Customer churn analysis
+              </h3>
+              <p class="project__description">
+                Tackled the challenge of identifying at-risk customers to prevent revenue loss in a competitive market. Built a churn prediction model using Gradient Boost with SMOTEENN for class balancing and hyperparameter tuning for optimal accuracy. Designed a Power BI dashboard to visualize churn rate and revenue loss, empowering stakeholders to implement effective customer retention strategies.
+              </p>
+              <h4 class="project__stack text-xs">USED STACK:</h4>
+              <ul class="tags text-sm">
+                <li>Python</li>
+                <li>Power BI</li>
+                <li>Microsoft Excel</li>
+              </ul>
+              <a href="https://github.com/PranaliSawant1211/Customer-Churn-Analysis" class="project__link text-sm">Churn Sheild Project Link</a>
+            </div>
+          </div>
+
+          <div class="project__item grid mix landing">
+            <img src="assets/img/customers page.png" alt="" class="project__img" />
+
+            <div class="project__data">
+              <h3 class="project__title text-lg">
+                ECOM CONNECT - Ecommerce analytics
+              </h3>
+              <p class="project__description">
+                Developed a SQL-based analytics solution with Google BigQuery to support e-commerce decision-making. Created a Power BI dashboard using DAX to measure key metrics like Order Fulfillment Rate, Profit Margin, Customer Lifetime Value, and Repeat Customer Rate, driving improved resource allocation, customer satisfaction, and operational efficiency
+              </p>
+              <h4 class="project__stack text-xs">USED STACK:</h4>
+              <ul class="tags text-sm">
+                <li>SQL</li>
+                <li>Power BI</li>
+                <li>Microsoft Excel</li>
+              </ul>
+
+              <a href="https://github.com/PranaliSawant1211/E-commerce_Analytics" class="project__link text-sm">Ecom Connect Project Link</a>
+            </div>
+          </div>
+          <div class="project__item grid mix fashion">
+            <img src="assets/img/Fashion Recommendation system Dashboard.png" alt="" class="project__img" />
+
+            <div class="project__data">
+              <h3 class="project__title text-lg">
+                FASHIONISTA - Fashion Recommendation system
+              </h3>
+              <p class="project__description">
+                Developed a SQL-based analytics solution with Google BigQuery to support e-commerce decision-making. Created a Power BI dashboard using DAX to measure key metrics like Order Fulfillment Rate, Profit Margin, Customer Lifetime Value, and Repeat Customer Rate, driving improved resource allocation, customer satisfaction, and operational efficiency
+              </p>
+              <h4 class="project__stack text-xs">USED STACK:</h4>
+              <ul class="tags text-sm">
+                <li>Python</li>
+                <li>Power BI</li>
+                <li>Microsoft Excel</li>
+              </ul>
+
+              <a href="https://github.com/PranaliSawant1211/H-M_Fashion_Recommendation-System" class="project__link text-sm">Fashionista Project Link</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      
+      <!--=============== Blog ===============-->
+      <section class="blog section container" id="blog">
+        <h2 class="section__title">Blogs</h2>
+
+        <div class="posts__container grid">
+          <a href="https://medium.com/@sawant.prana/combine-data-cleaning-feature-selection-modeling-and-interpretability-a19f6991f8f3" class="post__card">
+            <img src="assets/img/gem.jpg" alt="" class="post__img" />
+
+            <div class="post__content">
+              <p class="post__date text-xs">April 27, 2023</p>
+              <h3 class="post__title text-sm">GEM STONE PRICE PREDICTION</h3>
+              <p class="post__description text-sm">
+                I authored a Medium blog on building a Gem Stone Price Prediction model, showcasing techniques like data cleaning, feature selection, regression analysis, and interpretability using Python and H2O AutoML.              </p>
+            </div>
+          </a>
+
+        
+        </div>
+      </section>
+
+      <!--=============== Contact ===============-->
+      <section class="contact section" id="contact">
+        <div class="contact__content container">
+          <h2 class="section__title">Get in touch_</h2>
+
+          <div class="contact__container grid">
+            <div class="contact__info">
+              <dl class="contact__list">
+                <dt>Phone:</dt>
+                <dd>+1 (857)-693-8005</dd>
+                <dt>Email:</dt>
+                <dd>pranalisawantt12@gmail.com</dd>
+              </dl>
+
+              <ul class="contact__socials">
+                
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/pranali-sawant-b99527206/"
+                    class="contact__social-link"
+                    >Linkedin</a
+                  >
+                </li>
+                <li>
+                  <a href="https://github.com/PranaliSawant1211" class="contact__social-link"
+                    >Github</a>
+                  
+                </li>
+              </ul>
+            </div>
+
+            <div class="contact__form">
+              <p class="contact__form-title">Or just write me a letter here_</p>
+
+              <form action="" id="contact-form">
+                <div class="contact__input-div">
+                  <input
+                    type="text"
+                    name="name"
+                    placeholder="Your name"
+                    class="contact__input"
+                    id="contact-name"
+                  />
+                </div>
+
+                <div class="contact__input-div">
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Your e-mail"
+                    class="contact__input"
+                    id="contact-email"
+                  />
+                </div>
+
+                <div class="contact__input-div">
+                  <textarea
+                    name="message"
+                    placeholder="Type the message here"
+                    class="contact__input textarea"
+                    id="message"
+                    cols="30"
+                    rows="10"
+                  ></textarea>
+                </div>
+
+                <p class="contact__message text-sm" id="contact-message"></p>
+
+                <button type="submit" class="button contact__button">
+                  SEND
+                </button>
+              </form>
+
+              <p class="footer__copy">
+                &copy; 2024 Pranali Sawant. All Rights Reserved
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--=============== Style Switcher ===============-->
+    <div class="style__switcher">
+      <div class="style__switcher-toggler">
+        <i class="ri-settings-4-fill"></i>
+      </div>
+
+      <div class="colors">
+        <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+        <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+      </div>
+    </div>
+
+    <!--=============== Mixitup ===============-->
+    <script src="assets/js/mixitup.min.js"></script>
+
+    <!--=============== Swiper Js ===============-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <!--=============== Email Js ===============-->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+
+    <!--=============== Js ===============-->
+    <script src="assets/js/main.js"></script>
+
+    <!--=============== Common ===============-->
+    <script src="assets/js/common.js"></script>
+  </body>
+</html>
